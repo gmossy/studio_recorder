@@ -1,0 +1,70 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Google Cloud credentials
+google-cloud-*/
+*.json
+*.p12
+*.pem
+service-account.json
+application_default_credentials.json
+adc.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Recordings (optional: uncomment if you don’t want to track audio files)
+# recordings/
+*.mp3
+*.wav
+*.webm
