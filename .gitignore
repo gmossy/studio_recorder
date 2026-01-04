@@ -63,8 +63,15 @@ Thumbs.db
 *.log
 logs/
 
-# Recordings (optional: uncomment if you don’t want to track audio files)
-# recordings/
+# Compressed files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Recordings
+recordings/
 *.mp3
 *.wav
 *.webm
